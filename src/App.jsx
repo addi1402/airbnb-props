@@ -25,7 +25,6 @@ export default function App() {
       <NavBar />
       <Hero />
       <div className="catalogue">{mainData}</div>
-      <h2>{[2, 3, 4]}</h2>
     </>
   );
 }
