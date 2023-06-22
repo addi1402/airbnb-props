@@ -8,13 +8,8 @@ import cardData from "./Data";
 const mainData = cardData.map((card) => {
   return (
     <Card
-      status={card.status}
-      image={card.image}
-      rating={card.rating}
-      count={card.count}
-      dest={card.dest}
-      title={card.title}
-      cost={card.cost}
+      key = {card.id}
+      item = {card}
     />
   );
 });
