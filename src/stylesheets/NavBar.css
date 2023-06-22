@@ -1,0 +1,7 @@
+.nav-bar{
+    background-color: white;
+    padding: 25px 30px;
+    box-shadow: 0 2px 15px rgb(232, 232, 232);
+    display: flex;
+}
+
